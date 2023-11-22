@@ -1,0 +1,143 @@
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+ 
+    background-color: #dde1e7
+}
+.body{
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94 ,14 , 0 , 0.3);
+    background-color: #dde1e7;
+    width: 317px;
+    height: 400px;
+
+}
+.screen2{
+    width:300px ;
+    height: 50PX;
+}
+.screen{
+    width:300px ;
+    height: 50PX;
+    margin: 10PX 8px 0px 8px;
+background-color: antiquewhite;
+color: #455bd7;
+font-size: 30px;
+align-items: center;
+  display: flex;
+  padding-left: 10px;
+
+}           
+.buttons{
+
+background-color: #dde1e7;
+color: #808080;
+display: flex;
+flex-direction: row;
+}
+.number{  
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+    padding:20px ;
+    margin: 5px;    
+}
+.a{
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+    padding:20px 21.75px;
+    margin: 5px;    
+}
+
+.zero{
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+    padding:20px 16.5px;
+    margin: 5px;    
+}
+
+.radif1 , .radif2 , .radif3{
+    margin: 15px 0px; 
+
+}
+.cT{
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+
+    padding:20px 16.5px;
+    margin: 5px;   
+}
+.cTp{
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+
+    padding:55px 16.5px;
+    margin: 5px;   
+    margin-top: 8px;
+    height: 14px;
+
+}
+.column1{
+    margin: 9px 0px; 
+}
+.plus{
+    display: flex;
+}
+.cTe {
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+
+    height: 20px;
+   padding: 18px 23.5px;
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 6px;
+
+    
+}
+.cTm{
+    box-shadow: -3px -3px 7px #ffffff73 , 2px 2px 2px rgba(94, 104,121, 0.3);
+    padding: 18px 23.5px;
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.number:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.number:focus{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.zero:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.a:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.cT:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.cTp:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+
+.cTm:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.cTe:hover{
+    color: #3498db;
+    font-size: 13px;
+    box-shadow: inset -3px -3px 7px #ffffff73 , inset 2px 2px 2px rgba(94, 104,121, 0.3);
+}
+.number , .cTe , .cTp , .cTm , .a , .zero , .cT{ 
+    cursor: pointer;
+}
